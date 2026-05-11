@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <nav className="w-full border-b border-neutral-200 bg-neutral-50/80 backdrop-blur">
+    <nav className="fixed top-0 left-0 z-50 w-full border-b border-neutral-200 bg-white/80 backdrop-blur">
       <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
         <h1 className="text-lg font-semibold">Johan Varghese K</h1>
 
@@ -15,6 +15,9 @@ function Navbar() {
 
           <a href="#publications" className="hover:text-gray-600">
             Publications
+          </a>
+          <a href="#beyond-academics" className="hover:text-gray-600">
+            Beyond Academics
           </a>
 
           <a href="#contact" className="hover:text-gray-600">

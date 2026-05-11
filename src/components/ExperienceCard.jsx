@@ -1,8 +1,15 @@
-function ProjectCard({ project }) {
-  const { title, description, tech, github, demo } = project;
+function ExperienceCard({ role, organisation, duration, description, tech }) {
   return (
     <div className="rounded-2xl border border-neutral-200 bg-white p-6 transition duration-300 hover:-translate-y-1 hover:shadow-xl">
-      <h3 className="text-2xl font-semibold">{title}</h3>
+      <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+        <div>
+          <h3 className="text-2xl font-semibold">{role}</h3>
+
+          <p className="text-gray-600">{organisation}</p>
+        </div>
+
+        <p className="text-sm text-gray-500">{duration}</p>
+      </div>
 
       <p className="mt-4 leading-relaxed text-gray-600">{description}</p>
 
@@ -20,4 +27,4 @@ function ProjectCard({ project }) {
   );
 }
 
-export default ProjectCard;
+export default ExperienceCard;

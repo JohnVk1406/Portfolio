@@ -10,12 +10,7 @@ function Projects() {
 
         <div className="grid gap-8 md:grid-cols-2">
           {projects.map((project) => (
-            <ProjectCard
-              key={project.title}
-              title={project.title}
-              description={project.description}
-              tech={project.tech}
-            />
+            <ProjectCard key={project.title} project={project} />
           ))}
         </div>
       </div>

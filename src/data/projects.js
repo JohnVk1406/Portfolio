@@ -4,6 +4,8 @@ const projects = [
     description:
       "Implementation and analysis of memory-efficient probabilistic data structures including Bloom Filters and Count-Min Sketch.",
     tech: ["Python", "Algorithms"],
+    github: null,
+    demo: null,
   },
 
   {
@@ -11,6 +13,8 @@ const projects = [
     description:
       "Food pre-booking and crowd management web application for canteen operations.",
     tech: ["React", "JavaScript", "Frontend"],
+    github: null,
+    demo: null,
   },
 
   {
@@ -18,6 +22,8 @@ const projects = [
     description:
       "Design and implementation of a functional 8-bit computer using discrete logic circuits.",
     tech: ["Digital Logic", "Systems"],
+    github: null,
+    demo: null,
   },
 ];
 
