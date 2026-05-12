@@ -4,6 +4,7 @@ import Projects from "./sections/Projects";
 import Experience from "./sections/Experience";
 import Publications from "./sections/Publications";
 import BeyondAcademics from "./sections/BeyondAcademics";
+import Contact from "./sections/Contact";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Experience />
         <Publications />
         <BeyondAcademics />
+        <Contact />
       </main>
     </div>
   );
