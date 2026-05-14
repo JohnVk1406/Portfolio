@@ -13,7 +13,10 @@ function Projects() {
   return (
     <section id="projects" className="py-24">
       <div className="mx-auto max-w-6xl px-6">
-        <SectionTitle title="Projects" subtitle="Selected Work" />
+        <SectionTitle
+          title="Projects"
+          subtitle={showAll ? "All Projects" : "Selected Work"}
+        />
 
         <div className="grid gap-8 md:grid-cols-2">
           {featuredProjects.map((project) => (

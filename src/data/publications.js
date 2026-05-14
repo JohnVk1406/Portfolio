@@ -5,10 +5,16 @@ const publications = [
 
     journal: "Journal of Systems Architecture (Elsevier)",
 
-    status: "Accepted",
+    year: "2026",
 
     description:
-      "Research work focused on task and message co-scheduling strategies for heterogeneous embedded platforms.",
+      "Research on optimisation strategies for task and message co-scheduling in heterogeneous systems.",
+
+    abstract: "This paper proposes...",
+
+    paperLink: "https://...",
+
+    featured: true,
   },
 ];
 

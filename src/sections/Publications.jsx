@@ -14,8 +14,10 @@ function Publications() {
               key={publication.title}
               title={publication.title}
               journal={publication.journal}
-              status={publication.status}
+              year={publication.year}
               description={publication.description}
+              abstract={publication.abstract}
+              paperLink={publication.paperLink}
             />
           ))}
         </div>

@@ -11,7 +11,7 @@ function App() {
     <div className="min-h-screen bg-neutral-50 text-zinc-900">
       <Navbar />
 
-      <main className="pt-24">
+      <main className="pt-36 md:pt-24">
         <Hero />
         <Projects />
         <Experience />

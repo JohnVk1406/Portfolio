@@ -3,6 +3,8 @@ const projects = [
     title: "Probabilistic Data Structures Lab",
     description:
       "Implementation and analysis of memory-efficient probabilistic data structures including Bloom Filters and Count-Min Sketch.",
+    details:
+      "Explored approximate data structures for scalable analytics and efficient querying with focus on probabilistic guarantees and memory optimisation.",
     tech: ["Python", "Algorithms"],
     featured: true,
     github: null,
@@ -13,6 +15,8 @@ const projects = [
     title: "Nosh n Go",
     description:
       "Food pre-booking and crowd management web application for canteen operations.",
+    details:
+      "Built to streamline canteen operations through food pre-ordering, queue reduction, and crowd management workflows.",
     tech: ["React", "JavaScript", "Frontend"],
     featured: true,
     github: null,
