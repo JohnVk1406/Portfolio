@@ -1,7 +1,7 @@
 const experiences = [
   {
     role: "Research Intern",
-    organisation: "Indian Institute of Technology",
+    organisation: "Indian Institute of Technology Kharagpur",
     duration: "June 2026",
 
     description:
