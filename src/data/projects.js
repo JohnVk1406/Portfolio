@@ -31,7 +31,7 @@ const projects = [
       "Developed the frontend for a food pre-booking and ordering platform designed for small-scale canteens, featuring crowd management workflows and inventory-oriented administrative insights.",
     tech: ["Next.js", "JavaScript", "Frontend"],
     featured: true,
-    github: "https://github.com/JohnVk1406/Can-Tea-N",
+    github: null,
     demo: null,
   },
 
