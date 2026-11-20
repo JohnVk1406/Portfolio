@@ -3,10 +3,17 @@ const activities = [
     title: "IEDC CET",
     role: "IPR Lead",
   },
-
+  {
+    title: "RISE CET",
+    role: "Administrative Committee",
+  },
   {
     title: "FOSS CET",
     role: "Administrative Committee",
+  },
+  {
+    title: "JPMorgan Chase Code for Good 2026",
+    role: "Winner",
   },
 
   {
